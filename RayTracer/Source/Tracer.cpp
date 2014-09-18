@@ -19,7 +19,7 @@ const bool AREA = false;								// Toggle area-lighting on or off
 const TVector LIGHT(4, 4, 4);							// Light emission
 const TVector BACKGROUND(0, 0, 0);						// Background color
 const TVector AMBIENT(2, 2, 2);							// Ambient light
-int AREA_LIGHTING = 16;									// Num of rays for area lighting - MUST BE POWER OF 2 - 0 turns it off
+int	AREA_LIGHTING = 16;									// Num of rays for area lighting - MUST BE POWER OF 2 - 0 turns it off
 
 // Texture map is global
 Image* image;

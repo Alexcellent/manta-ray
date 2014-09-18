@@ -78,12 +78,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="shape.cpp" />
     <ClCompile Include="Source\imageloader.cpp" />
     <ClCompile Include="Source\Shape.cpp" />
     <ClCompile Include="Source\Tracer.cpp" />
     <ClCompile Include="Source\TTuple.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="shape.h" />
     <ClInclude Include="Source\imageloader.h" />
     <ClInclude Include="Source\Ray.h" />
     <ClInclude Include="Source\Shape.h" />

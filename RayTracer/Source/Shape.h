@@ -50,7 +50,7 @@ class Sphere : public Shape
 {
 public:
 	// Sphere(position, color, transp, refl, isLight, radius)
-	Sphere(TVector position, TVector color, float transparency,	float reflection, bool isLight, float radius) :
+	Sphere(TVector position, TVector color, float transparency, float reflection, bool isLight, float radius) :
 		Shape(position, color, transparency, reflection, isLight)
 	{
 		this->radius = radius;
@@ -115,7 +115,7 @@ public:
 		this->v0 = v0;
 		this->v1 = v1;
 		this->v2 = v2;
-		
+
 		area = TVector::magnitude((v2 - v0)*(v1 - v0)) / 2.0;
 
 		// Calculate centroid http://www.dummies.com/how-to/content/how-to-pinpoint-the-position-of-a-triangle.html
