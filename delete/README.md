@@ -18,7 +18,7 @@ Project Properties (right click on 'COMP 477' in solution explorer, choose prope
 	-> Configuration Properties
 		-> General
 			-> Platform Toolset
-				-> Change from 'Visual Studio 2013 (v120) to 'Visual Studio 2012 (v110)'
+				-> Change from 'Visual Studio 2013 (v120)' to 'Visual Studio 2012 (v110)'
 ```
 You should now be able to run the program on the lab computer. Performance is
 best when run without the debugger `(ctrl + f5)`.
@@ -26,7 +26,7 @@ best when run without the debugger `(ctrl + f5)`.
 All pre-fabricated animation files are contained in `./model/<filename>.anim`,
 the same directory as the `skeleton.out` and `weights.out` files. The program
 loads `load.anim` by default or when `L` is pressed, and saves to `save.anim`
-when `S` is pressed. Arguments of the form ``./model/<filename>.anim` passed
+when `S` is pressed. Arguments of the form `./model/<filename>.anim` passed
 to the program will load this animation file instead.
 
 Interpolation methods are selected using `1-4`, as specified in the handout, and
